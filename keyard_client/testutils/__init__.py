@@ -1,9 +1,9 @@
 import socket
 
 
-def keyard_is_available():
+def keyard_is_available(port=8000):
     try:
-        socket.create_connection(('127.0.0.1', 8001), 1.0)
+        socket.create_connection(('127.0.0.1', port), 1.0)
     except socket.error:
         return False
     else:
