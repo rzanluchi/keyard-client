@@ -1,0 +1,7 @@
+-r requirements.txt
+
+
+pytest==2.8.3
+mock==1.3.0
+keyard==0.1.1
+gunicorn==19.4.5
